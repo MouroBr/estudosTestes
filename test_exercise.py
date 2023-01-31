@@ -1,6 +1,7 @@
 import unittest
 
 def str_to_bool(value):
+    value = value.lower()
     true_values = ['y','yes']
     flase_values = ['no','n']
 
